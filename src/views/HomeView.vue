@@ -1,7 +1,10 @@
 <template>
   <div class="home">
     <br />
-    <CustomText>Deneme</CustomText>
+    <CustomText class="a1" tag="p">Deneme</CustomText>
+    <CustomText tag="p" size="small">Deneme</CustomText>
+    <CustomText tag="p" size="xsmall">Deneme</CustomText>
+    <CustomText tag="p" size="xxsmall">Deneme</CustomText>
   </div>
 </template>
 
@@ -14,3 +17,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.a1 {
+  color: rgb(var(--jbb));
+}
+</style>
