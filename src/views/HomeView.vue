@@ -1,19 +1,16 @@
 <template>
   <div class="home">
     <br />
-    <CustomText class="a1" tag="p">Deneme</CustomText>
-    <CustomText tag="p" size="small">Deneme</CustomText>
-    <CustomText tag="p" size="xsmall">Deneme</CustomText>
-    <CustomText tag="p" size="xxsmall">Deneme</CustomText>
+    <PageDesign />
   </div>
 </template>
 
 <script>
-import CustomText from "@/components/CustomText.vue";
+import PageDesign from "@/components/PageDesign.vue";
 export default {
   name: "HomeView",
   components: {
-    CustomText,
+    PageDesign,
   },
 };
 </script>
